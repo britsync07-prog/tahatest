@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preinstall": "pwd && ls -la",
     "dev": "next dev --turbo --port 4444",
     "build": "next build",
     "start": "next start --port 4444",
