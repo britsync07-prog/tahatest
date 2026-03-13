@@ -1,3 +1,3 @@
 [build]
-  command = "ls -la && npm run build"
+  command = "ls -la && npx next build"
   publish = ".next"
