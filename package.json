@@ -5,7 +5,7 @@
   "scripts": {
     "preinstall": "pwd && ls -la",
     "dev": "next dev --turbo --port 4444",
-    "build": "echo 'EXECUTING BUILD SCRIPT' && next build",
+    "build": "exit 1",
     "start": "next start --port 4444",
     "lint": "eslint"
   },
